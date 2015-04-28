@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		B423CA561AEEF3F400CBDEA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B423CA551AEEF3F400CBDEA3 /* main.m */; };
 		B423CA591AEEF3F400CBDEA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B423CA581AEEF3F400CBDEA3 /* AppDelegate.m */; };
-		B423CA5C1AEEF3F400CBDEA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B423CA5B1AEEF3F400CBDEA3 /* ViewController.m */; };
 		B423CA5F1AEEF3F400CBDEA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B423CA5D1AEEF3F400CBDEA3 /* Main.storyboard */; };
 		B423CA611AEEF3F400CBDEA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B423CA601AEEF3F400CBDEA3 /* Images.xcassets */; };
 		B423CA641AEEF3F400CBDEA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B423CA621AEEF3F400CBDEA3 /* LaunchScreen.xib */; };
 		B423CA701AEEF3F400CBDEA3 /* TableChallenge1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B423CA6F1AEEF3F400CBDEA3 /* TableChallenge1Tests.m */; };
+		B423CA7B1AEF0CEB00CBDEA3 /* TableChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = B423CA7A1AEF0CEB00CBDEA3 /* TableChallenge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		B423CA551AEEF3F400CBDEA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B423CA571AEEF3F400CBDEA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B423CA581AEEF3F400CBDEA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B423CA5A1AEEF3F400CBDEA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B423CA5B1AEEF3F400CBDEA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B423CA5E1AEEF3F400CBDEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B423CA601AEEF3F400CBDEA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B423CA631AEEF3F400CBDEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B423CA691AEEF3F400CBDEA3 /* TableChallenge1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableChallenge1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B423CA6E1AEEF3F400CBDEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B423CA6F1AEEF3F400CBDEA3 /* TableChallenge1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableChallenge1Tests.m; sourceTree = "<group>"; };
+		B423CA791AEF0CEB00CBDEA3 /* TableChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableChallenge.h; path = ../TableChallenge.h; sourceTree = "<group>"; };
+		B423CA7A1AEF0CEB00CBDEA3 /* TableChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableChallenge.m; path = ../TableChallenge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				B423CA571AEEF3F400CBDEA3 /* AppDelegate.h */,
 				B423CA581AEEF3F400CBDEA3 /* AppDelegate.m */,
-				B423CA5A1AEEF3F400CBDEA3 /* ViewController.h */,
-				B423CA5B1AEEF3F400CBDEA3 /* ViewController.m */,
+				B423CA791AEF0CEB00CBDEA3 /* TableChallenge.h */,
+				B423CA7A1AEF0CEB00CBDEA3 /* TableChallenge.m */,
 				B423CA5D1AEEF3F400CBDEA3 /* Main.storyboard */,
 				B423CA601AEEF3F400CBDEA3 /* Images.xcassets */,
 				B423CA621AEEF3F400CBDEA3 /* LaunchScreen.xib */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B423CA5C1AEEF3F400CBDEA3 /* ViewController.m in Sources */,
 				B423CA591AEEF3F400CBDEA3 /* AppDelegate.m in Sources */,
 				B423CA561AEEF3F400CBDEA3 /* main.m in Sources */,
+				B423CA7B1AEF0CEB00CBDEA3 /* TableChallenge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
